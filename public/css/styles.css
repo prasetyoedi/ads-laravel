@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+header {
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/cover.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    padding-top: 51px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 70px;
+}
+
+nav {
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(25px);
+}
+
+header li {
+    color: #212427;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header .navbar-brand {
+    margin-right: 380px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .navbar-nav {
+    gap: 56px;
+}
+
+.button-regis {
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FFC73C;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-regis:hover {
+    background-color: #FFD45C;
+}
+
+.button {
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FFC73C;
+    box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+
+    width: 250px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    background-color: #FFD45C;
+}
+
+.nav-link:hover {
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+
+.header-content {
+    padding-top: 250px;
+}
+
+.photo {
+    width: 226px;
+    height: 250px;
+}
+
+.wrap-photo {
+    margin-top: 50px;
+}
+
+.wrap {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+/* about */
+#about {
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/bg-about.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.about-space {
+    padding-top: 80px;
+}
+
+.about-img {
+    width: 90%;
+    height: auto;
+}
+
+#about .title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#about p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.mekanisme {
+    width: 72%;
+    height: auto;
+}
+
+/* blog */
+#blog {
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/bg-blog.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#blog .card {
+    width: 90%;
+    height: auto;
+}
+
+#blog .card-body {
+    background: #00D1FF;
+}
+
+#blog .card-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+#blog .card-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#blog .title {
+    color: #212427;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#blog .title:hover {
+    color: #00D1FF;
+    cursor: pointer;
+}
+
+
+#blog .subtitle {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.img-blog2 {
+    width: 36%;
+    height: auto;
+}
+
+.btn-blog {
+    display: flex;
+    padding: 24px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #00D1FF;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-blog:hover {
+    background-color: #FFD45C;
+}
+
+.blog-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-img:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+footer {
+    padding: 50px 70px;
+    background: #00D1FF;
+}
+
+
+.icon-sosmed img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+/* Register */
+#register {
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/cover-register.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#register .title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 86px;
+}
+
+#register .subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+form {
+    padding: 30px 20px;
+    gap: 20px;
+
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.form-control {
+    border-radius: 8px;
+    background: #F8F8F8;
+}
+
+::placeholder {
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.angka {
+    color: var(--Gray-3, #828282);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-check-label {
+    color: #071424;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-daftar {
+    width: 250px;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #00D1FF;
+    border: none;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img-upload-file {
+    width: 70%;
+    height: auto;
+}
+
+.ml-upload {
+    margin-left: -80px;
+    color: #071424;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.custom-file-input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.img-upload-file {
+    height: auto;
+    cursor: pointer;
+}
+
+.custom-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #FFC73C;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.back-to-top:hover {
+    background-color: #FFB400;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/bg-cover-mobile.png');
+    }
+
+    nav {
+        border-radius: 15px;
+    }
+
+    header .navbar-brand {
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    header .navbar-nav {
+        gap: 5px;
+    }
+
+    .photo {
+        width: 110px;
+        height: 161px;
+    }
+
+    .header-content {
+        padding-top: 25px;
+    }
+
+    .owl-carousel {
+        margin-top: 300px;
+    }
+
+    .wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mekanisme {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-blog2 {
+        width: 60%;
+        height: auto;
+    }
+
+    #blog .card {
+        width: 100%;
+        height: auto;
+    }
+
+    #blog {
+        padding-top: 50px;
+    }
+
+    footer {
+        padding: 40px 20px;
+        background: #00D1FF;
+    }
+
+    .img-upload-file {
+        width: 90%;
+        height: auto;
+    }
+
+    .ml-upload {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    nav {
+        border-radius: 15px;
+    }
+
+    header .navbar-brand {
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    header .navbar-nav {
+        gap: 5px;
+    }
+
+    .owl-carousel {
+        margin-top: 50px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mekanisme {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-blog2 {
+        width: 77%;
+        height: auto;
+    }
+
+    #blog {
+        padding-top: 50px;
+    }
+
+    #blog .card {
+        width: 100%;
+        height: auto;
+    }
+
+}
