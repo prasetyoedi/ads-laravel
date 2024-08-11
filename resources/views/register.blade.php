@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <img src="{{ url('/images/logo.png') }}" alt="Logo">
+                <img src="https://prasetyoedi.github.io/Ads/assets/images/logo.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -61,8 +61,8 @@
                         <div class="d-flex align-items-center">
                             <div class="">
                                 <div class="custom-file-input-wrapper">
-                                    <img src="{{ url('/images/upload-file.png') }}" alt=""
-                                        class="img-fluid img-upload-file">
+                                    <img src="https://prasetyoedi.github.io/Ads/assets/images/upload-file.png"
+                                        alt="upload file" class="img-fluid img-upload-file">
                                     <input type="file" class="custom-file-input" id="uploadFile"
                                         accept=".png, .jpg, .jpeg" required>
                                 </div>

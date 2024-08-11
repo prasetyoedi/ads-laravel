@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <img src="{{ url('/images/logo.png') }}" alt="Logo">
+                <img src="https://prasetyoedi.github.io/Ads/assets/images/logo.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -34,7 +34,7 @@
     <div class="header-content">
         <div class="row">
             <div class="col-lg-5">
-                <img src="{{url('images/explore.png')}}" alt="gambar explore" class="img-fluid">
+                <img src="https://prasetyoedi.github.io/Ads/assets/images/explore.png" alt="gambar explore" class="img-fluid">
 
                 <a href="#" class="text-decoration-none">
                     <div class="button mt-5">TENTANG PROGRAM</div>
@@ -43,9 +43,9 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-5 wrap-photo">
                 <div class="owl-carousel varian-pertama">
-                    <img src="{{url('images/photo/photo-1.png')}}" alt="gambar photo 1" class="photo">
-                    <img src="{{url('images/photo/photo-2.png')}}" alt="gambar photo 2" class="photo">
-                    <img src="{{url('images/photo/photo-3.png')}}" alt="gambar photo 3" class="photo">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/photo/photo-1.png" alt="gambar photo 1" class="photo">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/photo/photo-2.png" alt="gambar photo 2" class="photo">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/photo/photo-3.png" alt="gambar photo 3" class="photo">
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
         <div class="wrap">
             <div class="row">
                 <div class="col-md-6 about-space">
-                    <img src="{{url('images/about-image.png')}}" alt="gambar about" class="about-img">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/about-image.png" alt="gambar about" class="about-img">
                 </div>
                 <div class="col-md-6 about-space">
                     <div class="title mb-2">Tentang Program</div>
@@ -69,7 +69,7 @@
                         <div class="button mt-5">DAFTAR SEKARANG</div>
                     </a>
                     <div class="title mb-2 mt-5">Mekanisme</div>
-                    <img src="{{url('images/mekanisme.png')}}" alt="gambar timeline mekanisme"
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/mekanisme.png" alt="gambar timeline mekanisme"
                         class="img-fluid mt-2 mekanisme">
                 </div>
             </div>
@@ -78,11 +78,11 @@
 
     <section id="blog">
         <div class="wrap">
-            <img src="{{url('images/blog.png')}}" alt="logo" class="img-fluid">
+            <img src="https://prasetyoedi.github.io/Ads/assets/images/blog.png" alt="logo" class="img-fluid">
             <div class="row">
                 <div class="col-md-6 mt-3">
                     <div class="card">
-                        <img src="{{url('images/doraemon.png')}}" alt="gambar doraemon" class="img-fluid blog-img">
+                        <img src="https://prasetyoedi.github.io/Ads/assets/images/doraemon.png" alt="gambar doraemon" class="img-fluid blog-img">
                         <div class="card-body">
                             <h5 class="card-title">Warga Thailand Pakai Boneka Doraemon untuk Ritual Pemanggil Hujan
                             </h5>
@@ -92,26 +92,26 @@
                 </div>
                 <div class="col-md-6 mt-4">
                     <div class="d-flex">
-                        <img src="{{url('images/blog1.png')}}" alt="gambar ilustrasi Thailand"
+                        <img src="https://prasetyoedi.github.io/Ads/assets/images/blog1.png" alt="gambar ilustrasi Thailand"
                             class="img-fluid blog-img">
                         <div class="title ps-3">Thailand Ngarep Cuan Banyak dari Turis China dan Jepang
                             <br> <span class="subtitle">1 jam yang lalu</span>
                         </div>
                     </div>
                     <div class="d-flex mt-5">
-                        <img src="{{url('images/blog2.png')}}" alt="gambar ilustrasi Cahaya Lampu"
+                        <img src="https://prasetyoedi.github.io/Ads/assets/images/blog2.png" alt="gambar ilustrasi Cahaya Lampu"
                             class="img-fluid img-blog2 blog-img">
                         <div class="title ps-3">Cahaya Lampu Hiasi Kuil Wat Phra Dhammakaya Thailand Saat Waisak
                             <br> <span class="subtitle">1 jam yang lalu</span>
                         </div>
                     </div>
                     <div class="d-flex mt-5">
-                        <img src="{{url('images/blog3.png')}}" alt="gambar ilustrasi Lisa" class="img-fluid blog-img">
+                        <img src="https://prasetyoedi.github.io/Ads/assets/images/blog3.png" alt="gambar ilustrasi Lisa" class="img-fluid blog-img">
                         <div class="title ps-3">Cantiknya Lisa BLACKPINK Berwisata Sejarah di Thailand
                             <br> <span class="subtitle">1 jam yang lalu</span>
                         </div>
                     </div>
-                    <a href="" class="text-decoration-none">
+                    <a href="#" class="text-decoration-none">
                         <div class="btn-blog mt-4">
                             Lihat Berita Lainnya <svg xmlns="http://www.w3.org/2000/svg" width="17" height="14"
                                 viewBox="0 0 17 14" fill="none">

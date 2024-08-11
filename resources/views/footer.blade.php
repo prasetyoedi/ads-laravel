@@ -1,5 +1,5 @@
 <footer>
-    <img src="{{url('images/logo-footer.png')}}" alt="logo footer">
+    <img src="https://prasetyoedi.github.io/Ads/assets/images/logo-footer.png" alt="logo footer">
     <div class="row">
         <div class="col-lg-9 col-md-8">
             <p style="color: #FFF;
@@ -23,19 +23,20 @@
             </div>
             <div class="d-flex icon-sosmed" style="gap: 8px;">
                 <a href="https://www.facebook.com/">
-                    <img src="{{url('images/sosmed/facebook.png')}}" alt="ikon facebook">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/sosmed/facebook.png" alt="ikon facebook">
                 </a>
                 <a href="https://x.com/?lang=en-id">
-                    <img src="{{url('images/sosmed/twitter.png ')}}" alt="ikon twitter">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/sosmed/twitter.png" alt="ikon twitter">
                 </a>
                 <a href="https://www.instagram.com/">
-                    <img src="{{url('images/sosmed/instagram.png')}}" alt="ikon instagram">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/sosmed/instagram.png"
+                        alt="ikon instagram">
                 </a>
                 <a href="https://www.linkedin.com/">
-                    <img src="{{url('images/sosmed/linkedin.png')}}" alt="ikon linkedin">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/sosmed/linkedin.png" alt="ikon linkedin">
                 </a>
                 <a href="https://www.youtube.com/#!/home">
-                    <img src="{{url('images/sosmed/youtube.png')}}" alt="ikon youtube">
+                    <img src="https://prasetyoedi.github.io/Ads/assets/images/sosmed/youtube.png" alt="ikon youtube">
                 </a>
             </div>
         </div>
@@ -47,3 +48,13 @@
         </div>
     </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://prasetyoedi.github.io/Ads/assets/js/owl.carousel.min.js"></script>
+<script src="https://prasetyoedi.github.io/Ads/assets/js/script.js"></script>
+</body>
+
+</html>
