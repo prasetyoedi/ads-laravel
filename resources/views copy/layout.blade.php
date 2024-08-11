@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://prasetyoedi.github.io/Ads/assets/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="https://prasetyoedi.github.io/Ads/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url('/css/styles.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url('/css/owl.carousel.min.css') }}" />
 </head>
 
 <body>
@@ -21,8 +21,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://prasetyoedi.github.io/Ads/assets/js/owl.carousel.min.js"></script>
-    <script src="https://prasetyoedi.github.io/Ads/assets/js/script.js"></script>
+    <script src="{{ url('/js/script.js') }}"></script>
+    <script src="{{ url('/js/owl.carousel.min.js') }}"></script>
 </body>
 
 </html>
